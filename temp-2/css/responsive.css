@@ -1,0 +1,194 @@
+
+@media(min-width: 769px){
+
+    /* =======================================================
+
+    body styling
+
+    =========================================================== */
+
+    .fixed__nav {
+        display: none;
+    }
+
+
+    /* =======================================================
+
+    body header
+
+    =========================================================== */
+    .body__header header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header__brand {
+        padding: 20px 0;
+    }
+
+    .header__brand img{
+        height: 80px;
+    }
+
+    .header__contact .contact__phone {
+        padding: 8px 20px 8px 40px;
+        border-radius: 10px 2px 2px 0;
+        /* background-color: rgb(255, 131, 15); */
+        position: relative;
+    }
+    .header__contact .contact__phone a {
+        font-size: 22px;
+        color: rgb(54, 54, 54);
+    }
+
+    .header__contact .contact__phone i {
+        /* position: absolute;
+        top: 0px;
+        left: 0px; */
+        /* background-color: rgb(255, 131, 15); */
+        display: inline-block;
+        padding: 10px 10px;
+        border-radius: 10px;
+        /* color: #fff; */
+    }
+
+    /* =======================================================
+
+    body footer
+
+    =========================================================== */
+
+
+
+
+    /* =======================================================
+
+    body banner
+
+    =========================================================== */
+
+
+
+    /* =======================================================
+
+    body container
+
+    =========================================================== */
+
+    .tab__btn {
+        margin-bottom: 8px;
+        padding: 7px 7px 4px 7px;
+        /* background-color: #b19f81;*/
+        border-bottom: 1px solid #726652b0; 
+    }
+
+    .tab__btn a {
+        font-family: 'Cinzel', serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:  #726652;
+        display: block;
+    }
+
+    .active__tab-btn, .active__tab-btn:hover {
+        border-bottom: 1px solid #223872;
+        position: relative;
+    }
+
+    .active__tab-btn a {
+        color:  #0f2666;
+    }
+
+    .active__tab-btn::after {
+        content:"\f105";
+        font-family: "fontAwesome";
+        font-size: 1.4rem;
+        color:   #0f2666;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+
+    /*  body tab section
+    =========================================================== */
+    .section__tab-btn {
+        position: sticky;
+        top: 0;
+    }
+
+
+    /*  body tab detail section
+    =========================================================== */
+
+}
+
+
+@media(max-width: 768px){
+
+    /* =======================================================
+
+    body styling
+
+    =========================================================== */
+
+    .fixed__nav {
+        position: fixed;
+        bottom: 0;
+    }
+
+    
+    .fixed__nav ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .fixed__nav ul li {
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    /* =======================================================
+
+    body header
+
+    =========================================================== */
+
+
+
+    /* =======================================================
+
+    body footer
+
+    =========================================================== */
+
+
+
+
+    /* =======================================================
+
+    body banner
+
+    =========================================================== */
+
+
+
+    /* =======================================================
+
+    body container
+
+    =========================================================== */
+
+
+
+    /*  body tab section
+    =========================================================== */
+
+
+
+    /*  body tab detail section
+    =========================================================== */
+
+}
