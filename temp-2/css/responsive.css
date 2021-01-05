@@ -291,6 +291,9 @@
     .fixed__nav span {
         display: block;
         text-align: center;
-        color: #fff;
+        color: rgb(230, 230, 230);
+        font-weight: 300;
+        font-size: 0.8rem;
+        text-transform: uppercase;
     }
 }
