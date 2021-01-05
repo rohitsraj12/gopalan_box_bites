@@ -39,4 +39,7 @@ $(document).ready(function(){
         // Parameters has to be in square bracket '[]'
         owl.trigger('prev.owl.carousel', [300]);
     })
+
+    // menu tab
+    
 })
