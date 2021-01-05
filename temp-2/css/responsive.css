@@ -112,6 +112,7 @@
     /*  body tab section
     =========================================================== */
     .section__tab-btn {
+        position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
     }
@@ -132,20 +133,38 @@
     =========================================================== */
 
     .fixed__nav {
+        width: 100%;
         position: fixed;
         bottom: 0;
+        background-color:  #223872;
     }
 
     
     .fixed__nav ul {
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .fixed__nav ul li {
+        /* background-color: red; */
+        display: block;
         width: 50%;
+        padding: 20px 0;
+        border-top: 1px solid rgb(4, 8, 4);
         text-align: center;
+        border-right: 1px solid rgb(4, 8, 4);
+        /* background-color: red; */
+    }
+
+    .fixed__nav ul li:last-child {
+        /* content: "|"; */
+        border-right: none;
+    }
+
+    .fixed__nav ul li i {
+        font-size: 24px;
+        color:#b19f81;
     }
 
 
