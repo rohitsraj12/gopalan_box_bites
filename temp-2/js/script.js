@@ -41,5 +41,38 @@ $(document).ready(function(){
     })
 
     // menu tab
+
+    /***************************************
+
+        #small screen
+
+    **************************************/ 
+    const mq = window.matchMedia( "(min-width: 769px)" );
+    if (mq.matches) {
+
+        $(window).scroll(function () {
+            // var height = $(window).scrollTop();
+
+            if ($(window).scrollTop() > 250) {
+                $("#header-nav").removeClass("header__nav-absolute");
+                $("#header-nav").addClass("header__nav-fixed");
+                
+            } else if ($(window).scrollTop() < 249){
+                $("#header-nav").removeClass("header__nav-fixed");
+                $("#header-nav").addClass("header__nav-absolute");
+            }
+        });
+    } else {
+        // window width is less than 768px
+        $('.section__tab-btn').hide();
+
+        $('#fixed__menu').click(function(){
+            $('.section__tab-btn').slideToggle();
+        });
+        $('.section__tab-btn').click(function(){
+            $(this).slideToggle();
+        });
+    }
+
     
 })
