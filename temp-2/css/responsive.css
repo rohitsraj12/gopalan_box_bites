@@ -209,7 +209,9 @@
 
     /*  body tab detail section
     =========================================================== */
-
+.article__food {
+    margin-bottom: 20px;
+}
 
     .food__image img{
         height: 50px;
