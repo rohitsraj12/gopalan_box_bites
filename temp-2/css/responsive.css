@@ -253,6 +253,24 @@
     
     .article__food {
         margin-bottom: 20px;
+        /* background-color: #fff; */
+        /* position: relative;
+    }
+
+    .article__food ul li:first-child {
+        position: absolute;
+        top: 0;
+        right: 0; */
+    }
+
+    .food__header {
+        text-align: center;
+    }
+    
+    .food__footer{
+        border-bottom: 1px solid #b19f81;
+        /* background-color: #b19f81; */
+        margin-bottom: 20px;
     }
 
     .food__image img{
