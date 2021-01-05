@@ -252,10 +252,14 @@
     =========================================================== */
     
     .article__food {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .food__image img{
-        height: 50px;
+        height: 70px;
+    }
+
+    .food__text {
+        font-size: 14px;
     }
 }
