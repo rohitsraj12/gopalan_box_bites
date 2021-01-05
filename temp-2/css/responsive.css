@@ -264,13 +264,18 @@
     }
 
     .food__header {
-        text-align: center;
+        /* text-align: center; */
     }
     
     .food__footer{
+        border-top: 1px solid #b19f81;
         border-bottom: 1px solid #b19f81;
         /* background-color: #b19f81; */
         margin-bottom: 20px;
+    }
+    
+    .food__footer ul li {
+        padding: 5px 0;
     }
 
     .food__image img{
